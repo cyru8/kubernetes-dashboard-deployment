@@ -30,3 +30,6 @@ NAME                        TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)  
 dashboard-metrics-scraper   ClusterIP   10.109.68.11     <none>        8000/TCP        7m37s
 kubernetes-dashboard        NodePort    10.108.229.192   <none>        443:31561/TCP   7m38s
 
+
+Accessing Kubernetes Dashboard
+My Service deployment was assigned a port 30038/TCP. Let’s confirm if access to the dashboard is working.
